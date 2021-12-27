@@ -1,0 +1,68 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav-1 {
+  border: 5px solid yellow;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color: black;
+  color: yellow;
+}
+.container {
+  background-color: bisque;
+  width: 500px;
+  border: 5px solid forestgreen;
+  padding: 30px;
+  margin: auto;
+}
+
+.Calculate {
+  border: 2px groove black;
+  width: 100px;
+  height: 25px;
+  /* padding: 8px; */
+  /* margin: auto; */
+  align-content: center;
+}
+
+input[type="number"] {
+  border: 2px groove gray;
+  width: 200px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  /* color: 4px solid black; */
+}
+
+label {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+input[type="range"] {
+  width: 300px;
+  height: 10px;
+  background-color: transparent;
+  padding: 10px;
+  /* color: transparent; */
+  /* border: 2px groove grey; */
+}
+
+#loanemi {
+  padding: 10px;
+  color: red;
+  /* margin: 2px;
+   */
+}
+
+.result {
+  padding: 10px;
+}
